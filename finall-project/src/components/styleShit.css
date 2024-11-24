@@ -1,0 +1,28 @@
+.warp {
+    margin: auto;
+    border-radius: 12px;
+    border-color: mediumorchid;
+    font-size: larger;
+    height: 40ch;
+    width: 60ch;
+    position: relative;
+    text-align: right;
+    align-items: center;
+    grid-column:2/3 ;
+    grid-row: 2/3;
+}
+.logWarp{
+    margin: auto;
+    border-radius: 12px;
+    border-color: mediumorchid;
+    font-size: larger;
+    height: 45ch;
+    width: 30ch;
+    position: relative;
+    text-align: right;
+    align-items: center;
+}
+
+legend {
+    font-size: large;
+}
