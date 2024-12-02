@@ -1,53 +1,89 @@
-# Hazorfim Store - E-commerce Project  
+# Hazorfim Store - Full-Stack E-Commerce Platform
 
-This repository contains the initial stages of development for the **Hazorfim Store**, an e-commerce platform built with **React** on the front end and **Node.js** with **Express** on the back end.  
+This repository hosts the **Hazorfim Store**, a feature-rich e-commerce platform built to deliver a seamless shopping experience. Leveraging modern web technologies, the project incorporates a **React.js** front end for dynamic interactivity and a robust **Node.js + Express** back end for efficient server-side operations. The platform supports multiple user roles—**guest**, **registered user**, and **admin**—with tailored functionality for each.
 
-## Main Function Points  
+---
 
-- **E-commerce Platform**: The project aims to create a fully functional online store for Hazorfim, enabling product browsing, order management, and customer interaction.  
-- **Client-Side (React)**: The front-end of the project is built using **React**, providing a Single-Page Application (SPA) experience for a smooth and fast user interface.  
-- **Server-Side (Node.js & Express)**: The back-end is powered by **Node.js** and **Express**, offering a RESTful API to handle requests, such as product management, user authentication, and order processing.  
-- **Early Development Stage**: The repository is currently in its initial stages, with only a few commits and basic file structure in place. Further development is planned to implement full functionality and features.  
+## **Features**
 
-## Technology Stack  
+### **Guest Users**
+- Browse the product catalog with dynamic filtering and sorting options.
+- View detailed descriptions and specifications for each product.
+- Register an account to unlock additional features.
 
-- **React**: JavaScript library for building dynamic and responsive user interfaces.  
-- **Node.js**: JavaScript runtime for building scalable server-side applications.  
-- **Express**: Web application framework for Node.js, used to handle API requests and server-side logic.  
-- **HTML/CSS**: Markup and styling for the user interface, providing the layout and design of the platform.  
+### **Registered Users**
+- Access all guest functionalities.
+- Add products to a personal shopping cart.
+- Complete secure purchases with real-time order updates.
+- View order history and track delivery status.
 
-## Project Status  
+### **Admin Users**
+- Manage the product catalog:
+  - **Add:** Create new products with images, descriptions, and pricing.
+  - **Edit:** Update product information and inventory levels.
+  - **Delete:** Remove outdated or unavailable products.
+- Oversee customer orders:
+  - View, update, and manage order statuses.
+- Administer user accounts:
+  - Monitor registered users and their purchase activities.
+  - Manage user roles (promote or demote admin access).
 
-This is an early-stage project with the basic setup of the client-server architecture. The main goal is to build a scalable and functional e-commerce system using modern web technologies.  
+---
 
-## How to Run  
+## **Technology Stack**
 
-1. Clone the repository:  
-   ```bash  
-   git clone https://github.com/TziporaGoldshmidt/hazorfim-store-react-project.git  
-   ```  
-2. Navigate to the project directory and install dependencies for both the client and server:  
-   - For the server (Node.js + Express):  
-     ```bash  
-     cd server  
-     npm install  
-     ```  
-   - For the client (React):  
-     ```bash  
-     cd client  
-     npm install  
-     ```  
-3. Start the server:  
-   ```bash  
-   npm start  
-   ```  
-4. Start the client:  
-   ```bash  
-   cd client  
-   npm start  
-   ```  
-5. Visit `http://localhost:3000` in your browser to view the application.  
+### **Frontend**
+- **React.js:** Provides a Single-Page Application (SPA) for a fast and smooth user experience.
+- **Redux:** Manages global application state, ensuring consistent data across components.
+- **Material-UI (MUI):** Implements a modern and responsive user interface.
 
----  
+### **Backend**
+- **Node.js:** Enables scalable and high-performance server-side operations.
+- **Express:** Simplifies the creation of RESTful APIs for seamless client-server communication.
 
-Feel free to contribute, suggest features, or report issues as we continue to develop the Hazorfim Store.
+### **Database**
+- **JSON Files:** Used for prototyping data storage in the early development stage; future plans to integrate a scalable database system like MongoDB or PostgreSQL.
+
+### **Additional Technologies**
+- **Authentication and Authorization:** Role-based access control for admins, users, and guests.
+- **Responsive Design:** Optimized for all devices, including desktop, tablet, and mobile.
+
+---
+
+## **How to Run**
+
+### Clone the repository:
+```bash
+git clone https://github.com/TziporaGoldshmidt/hazorfim-store-react-project.git
+```
+
+### Navigate to the project directory and install dependencies for both the client and server:
+
+#### For the Server (Node.js + Express):
+```bash
+cd server
+npm install
+npm start
+```
+
+#### For the Client (React):
+```bash
+cd client
+npm install
+npm start
+```
+
+### Access the Application:
+Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to start using the platform.
+
+---
+
+## **Future Enhancements**
+- Integration of a production-grade database (e.g., MongoDB) for data storage.
+- Secure payment gateway for real-time transaction processing.
+- Enhanced analytics for admins to track sales and user engagement.
+
+---
+
+## **Contributions**
+We welcome contributions to enhance this project. Feel free to report issues, suggest new features, or submit pull requests. Together, we can create a cutting-edge e-commerce platform!
