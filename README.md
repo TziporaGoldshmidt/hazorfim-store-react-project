@@ -26,7 +26,6 @@ This repository hosts the **Hazorfim Store**, a feature-rich e-commerce platform
   - View, update, and manage order statuses.
 - Administer user accounts:
   - Monitor registered users and their purchase activities.
-  - Manage user roles (promote or demote admin access).
 
 ---
 
@@ -46,7 +45,6 @@ This repository hosts the **Hazorfim Store**, a feature-rich e-commerce platform
 
 ### **Additional Technologies**
 - **Authentication and Authorization:** Role-based access control for admins, users, and guests.
-- **Responsive Design:** Optimized for all devices, including desktop, tablet, and mobile.
 
 ---
 
@@ -75,15 +73,3 @@ npm start
 
 ### Access the Application:
 Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to start using the platform.
-
----
-
-## **Future Enhancements**
-- Integration of a production-grade database (e.g., MongoDB) for data storage.
-- Secure payment gateway for real-time transaction processing.
-- Enhanced analytics for admins to track sales and user engagement.
-
----
-
-## **Contributions**
-We welcome contributions to enhance this project. Feel free to report issues, suggest new features, or submit pull requests. Together, we can create a cutting-edge e-commerce platform!
